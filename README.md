@@ -1,0 +1,1 @@
+# My-resume-QA-manual-Andrey-Shatkowski-adaptive-320-820
