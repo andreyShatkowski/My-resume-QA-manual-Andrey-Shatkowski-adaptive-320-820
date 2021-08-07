@@ -47,6 +47,17 @@
     line-height: 89px;
   }
 
+  .my-profession {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 23px;
+  }
+
+  .my-summary-container-mobile, .my-name-mobile, .my-profession-mobile, .my-name-mobile {
+   display: none;
+  }
+
   }
 
   @media (min-width: 721px) and (max-width: 820px) {
@@ -96,6 +107,17 @@
       font-size: 45px;
       font-weight: 700;
     }
+
+    .my-profession {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+
+    .my-summary-container-mobile, .my-name-mobile, .my-profession-mobile, .my-name-mobile {
+      display: none;
+     }
   }
 
   @media (min-width: 621px) and (max-width: 720px) {
@@ -145,6 +167,17 @@
       font-size: 45px;
       font-weight: 700;
     }
+
+    .my-profession {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+
+    .my-summary-container-mobile, .my-name-mobile, .my-profession-mobile, .my-name-mobile {
+      display: none;
+     }
   }
 
   @media (min-width: 521px) and (max-width: 620px) {
@@ -194,6 +227,17 @@
       font-size: 45px;
       font-weight: 700;
     }
+
+    .my-profession {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+
+    .my-summary-container-mobile, .my-name-mobile, .my-profession-mobile, .my-name-mobile {
+      display: none;
+     }
   }
   
   @media (min-width: 421px) and (max-width: 520px) {
@@ -243,6 +287,18 @@
       font-size: 45px;
       font-weight: 700;
     }
+
+    .my-profession {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 23px;
+    }
+
+    .my-summary-container-mobile, .my-name-mobile, .my-profession-mobile, .my-name-mobile {
+      display: none;
+     }
+
   }
 
   @media (min-width: 381px) and (max-width: 420px){
@@ -269,7 +325,7 @@
     }
     
     .my-photo {
-      width: 370px;
+      width: 400px;
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -283,11 +339,35 @@
       padding-bottom: 50px;
 
     }
-    .my-name {
-      font-size: 45px;
-      font-weight: 700;
+
+    .my-name, .my-profession{
+      display: none;
     }
 
+    .about-me-container-mobile {
+      padding-top: 5px;
+      padding-bottom: 5px;
+     
+    }
+    .my-name-mobile {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+    }
+
+    .my-summary-container-mobile {
+      margin-bottom: 5px;
+    }
+    
+    .my-profession-mobile {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 14px;
+      text-align: center;
+    }
 
   }
 
@@ -328,10 +408,38 @@
       padding-top: 5px;
       padding-bottom: 50px;
     }
-    .my-name {
-      font-size: 45px;
-      font-weight: 700;
+ 
+    .my-name, .my-profession{
+      display: none;
     }
+
+    .about-me-container-mobile {
+      padding-top: 5px;
+      padding-bottom: 5px;
+     
+    }
+    .my-name-mobile {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+    }
+
+    .my-summary-container-mobile {
+      margin-bottom: 5px;
+    }
+    
+    .my-profession-mobile {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 14px;
+      text-align: center;
+    }
+
+    
+
 
 
   }
@@ -373,9 +481,34 @@
       padding-top: 5px;
       padding-bottom: 50px;
     }
-    .my-name {
-      font-size: 45px;
+
+    .my-name, .my-profession{
+      display: none;
+    }
+
+    .about-me-container-mobile {
+      padding-top: 5px;
+      padding-bottom: 5px;
+     
+    }
+    .my-name-mobile {
+      color: #ffffff;
+      font-size: 22px;
       font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+    }
+
+    .my-summary-container-mobile {
+      margin-bottom: 5px;
+    }
+    
+    .my-profession-mobile {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 14px;
+      text-align: center;
     }
 
 
@@ -421,8 +554,33 @@
       padding-top: 5px;
       padding-bottom: 50px;
     }
-    .my-name {
-      font-size: 45px;
+
+   .my-name, .my-profession{
+      display: none;
+    }
+
+    .about-me-container-mobile {
+      padding-top: 5px;
+      padding-bottom: 5px;
+     
+    }
+    .my-name-mobile {
+      color: #ffffff;
+      font-size: 22px;
       font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+    }
+
+    .my-summary-container-mobile {
+      margin-bottom: 5px;
+    }
+    
+    .my-profession-mobile {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 14px;
+      text-align: center;
     }
 }
